@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-orange: #FF6B35;
+  --color-brand-beige: #FFF5F0;
+  --color-brand-dark: #333333;
+  --color-brand-light: #999999;
+  --color-brand-green: #10B981;
+  --color-brand-red: #EF4444;
+
+  --shadow-soft: 0 2px 12px rgba(0,0,0,0.06);
+  --shadow-soft-hover: 0 4px 20px rgba(0,0,0,0.09);
+  --shadow-orange: 0 4px 14px rgba(255,107,53,0.25);
+}
+
+@layer utilities {
+  .pill {
+    @apply rounded-full;
+  }
+  .card-rounded {
+    @apply rounded-[16px];
+  }
+}
